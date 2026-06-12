@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data and model artifacts
+data/
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary outputs
+*.log
+*.tmp
+*.bak
+logs/
+
+# Local private materials
+private/
+local_private/
+
+# Keep the final reproducibility artifacts, ignore exploratory runs.
+results/*
+!results/final_artifacts/
+!results/reduced_matrix/
+!results/comparison_summary/
+results/final_artifacts/logs/
+results/reduced_matrix/logs/
+
+figures/*
+!figures/final_artifacts/
+!figures/reduced_matrix/
+figures/_dryrun/

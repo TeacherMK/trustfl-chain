@@ -1,0 +1,13 @@
+dataset,distribution,attack,baseline,metric,n,mean_diff_trustfl_minus_baseline,test,statistic,pvalue,note
+fashion_mnist,alpha_0.5,gaussian_noise,trimmed_mean,final_accuracy,3,0.06166666666666665,paired_t,6.260405023350987,0.02457820720833233,exploratory statistical comparison
+fashion_mnist,alpha_0.5,gaussian_noise,trimmed_mean,mean_f1,3,0.8024074074074075,paired_t,383.5681295352966,6.7968947166047205e-06,exploratory statistical comparison
+fashion_mnist,alpha_0.5,model_scaling,trimmed_mean,final_accuracy,3,0.028666666666666656,paired_t,1.7959590246278363,0.21434153592888533,exploratory statistical comparison
+fashion_mnist,alpha_0.5,model_scaling,trimmed_mean,mean_f1,3,0.8026455026455027,paired_t,204.98596291011032,2.3797769420203223e-05,exploratory statistical comparison
+fashion_mnist,alpha_0.5,label_flip,fedavg,final_accuracy,3,0.02616666666666667,paired_t,1.7772193047571379,0.21750972521608525,exploratory statistical comparison
+fashion_mnist,alpha_0.5,label_flip,fedavg,mean_f1,3,0.6444885361552027,paired_t,17.351483377096944,0.0033049859426223533,exploratory statistical comparison
+fashion_mnist,alpha_0.5,sign_flip,cosine,final_accuracy,3,-0.023500000000000004,paired_t,-0.885532356345948,0.4692906361128471,exploratory statistical comparison
+fashion_mnist,alpha_0.5,sign_flip,cosine,mean_f1,3,0.46108465608465615,paired_t,10.548966639399723,0.008866940605788567,exploratory statistical comparison
+cifar10,alpha_0.5,gaussian_noise,trimmed_mean,final_accuracy,3,0.08766666666666667,paired_t,4.513899131251268,0.045738156933363326,exploratory statistical comparison
+cifar10,alpha_0.5,gaussian_noise,trimmed_mean,mean_f1,3,0.8051984126984127,paired_t,27.34196647513691,0.0013349659134092103,exploratory statistical comparison
+cifar10,alpha_0.5,model_scaling,trimmed_mean,final_accuracy,3,0.04433333333333333,paired_t,13.250403804886698,0.005647427111110496,exploratory statistical comparison
+cifar10,alpha_0.5,model_scaling,trimmed_mean,mean_f1,3,0.8121164021164021,paired_t,84.56067496185338,0.00013982087825439252,exploratory statistical comparison

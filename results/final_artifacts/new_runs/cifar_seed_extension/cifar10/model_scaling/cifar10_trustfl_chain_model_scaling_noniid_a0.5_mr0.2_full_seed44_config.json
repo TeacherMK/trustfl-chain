@@ -1,0 +1,21 @@
+{
+  "dataset": "cifar10",
+  "num_clients": 20,
+  "clients_per_round": 10,
+  "rounds": 20,
+  "local_epochs": 1,
+  "batch_size": 64,
+  "lr": 0.05,
+  "malicious_ratio": 0.2,
+  "attack": "model_scaling",
+  "defense": "trustfl_chain",
+  "detector": "isolation_forest",
+  "non_iid": true,
+  "alpha": 0.5,
+  "seed": 44,
+  "max_train_samples": 10000,
+  "max_test_samples": 2000,
+  "output_dir": "results\\final_artifacts\\new_runs\\cifar_seed_extension\\cifar10\\model_scaling",
+  "no_download": false,
+  "ablation": "full"
+}

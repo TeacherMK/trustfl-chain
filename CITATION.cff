@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use TrustFL-Chain, please cite this repository."
+title: "TrustFL-Chain: Lightweight Auditable Reputation-Aware Defense for Non-IID Federated Learning"
+authors:
+  - family-names: Zhong
+    given-names: Ziyuan
+    orcid: "https://orcid.org/0009-0006-7689-5551"
+  - family-names: Li
+    given-names: Dun
+  - family-names: Miao
+    given-names: Peiang
+    orcid: "https://orcid.org/0009-0001-3115-0672"
+  - family-names: Li
+    given-names: Hongzhi
+    orcid: "https://orcid.org/0000-0002-5883-3780"
+  - family-names: Fan
+    given-names: Lijie
+type: software
+date-released: "2026-06-11"
+license: MIT
+keywords:
+  - federated-learning
+  - poisoning-defense
+  - reputation
+  - audit-ledger
+  - non-iid

@@ -1,0 +1,1 @@
+phase,dataset,seed,rounds,num_clients,clients_per_round,attack,defense,non_iid,alpha,malicious_ratio,ablation,batch_size,max_train_samples,max_test_samples,run_id,output_dir,expected_csv,distribution,completed_rounds,complete,csv_exists,config_exists,ledger_exists,final_accuracy,best_accuracy,final_f1,mean_f1,final_fpr,mean_fpr,mean_runtime_sec,final_ledger_bytes

@@ -1,0 +1,21 @@
+{
+  "dataset": "fashion_mnist",
+  "num_clients": 20,
+  "clients_per_round": 10,
+  "rounds": 30,
+  "local_epochs": 1,
+  "batch_size": 64,
+  "lr": 0.05,
+  "malicious_ratio": 0.2,
+  "attack": "label_flip",
+  "defense": "cosine",
+  "detector": "isolation_forest",
+  "non_iid": true,
+  "alpha": 0.5,
+  "seed": 44,
+  "max_train_samples": 10000,
+  "max_test_samples": 2000,
+  "output_dir": "results\\reduced_matrix\\main\\fashion_mnist\\alpha0.5\\label_flip",
+  "no_download": false,
+  "ablation": "full"
+}
